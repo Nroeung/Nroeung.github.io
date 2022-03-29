@@ -1,0 +1,413 @@
+body {
+    padding: 0;
+    margin: 0;
+    /* text-align: left; */
+    /* background: #c9c9c9; */
+    font-family: 'Raleway', sans-serif;
+}
+
+.header-container:after {
+    content: none !important;
+}
+
+.section-title-css h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+
+.top-header {
+    background-color: #ffffff;
+    height: auto;
+}
+
+.top_header_icon {
+    position: center;
+    width: 550px;
+    margin-right: 20%;
+}
+
+.top-header-bg {
+    background: url('../source/20211023_073533.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../source/view2.jpg', sizingMethod='scale')";
+    filter: progid: DXImageTransform.Microsoft.AlphaImageLoader(src='.../source/view2.jpg', sizingMethod='scale');
+    height: 600px;
+    width: 100%;
+    opacity: .7;
+    ox-shadow: inset 0px 0px 40px 40px #DBA632;
+}
+
+.top-header-white {
+    color: white;
+}
+
+.top-header-white h4 {
+    margin: 0;
+}
+
+#top-header-bg-container {
+    height: 600px;
+    text-align: center;
+    position: relative;
+}
+
+#top-header-bg-text {
+    color: #fff;
+    font-weight: 600;
+    font-size: 4em;
+    text-transform: capitalize;
+    letter-spacing: 0.05em;
+    opacity: 1 !important;
+    margin: 0 0 2rem 0 !important;
+    padding: 0 !important;
+}
+
+#top-header-bg-button {
+    background-color: transparent;
+    border-radius: 0px;
+    border-color: #fff;
+    color: white;
+}
+
+#top-header-bg-button:hover {
+    background-color: white;
+    border-color: #fff;
+    color: black !important;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sections {
+    padding-top: 57px !important;
+    padding-bottom: 57px !important;
+}
+
+.biography-info-pic {
+    padding: 0;
+    border: 0;
+    outline: 0;
+    -webkit-text-size-adjust: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    border-radius: 100%;
+    /* margin-right: 50px; */
+    /* width: 80%; */
+    /* height: 200px; */
+    width: 200px;
+    border: 4px solid hsla(0, 0%, 100%, .4);
+}
+
+.biography-info-block {
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.8em;
+    /* background-color: rgb(104 104 104 / 98%); */
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    border-color: #000000;
+    padding-top: 5%!important;
+    padding-right: 5%!important;
+    padding-bottom: 5%!important;
+    padding-left: 5%!important;
+    margin-top: 0%!important;
+    margin-right: 1%!important;
+    margin-bottom: 1%!important;
+    /* margin-left: 10%!important; */
+    /* box-shadow: 6px 6px 18px 0px rgb(0 0 0 / 30%); */
+    color: white;
+}
+
+.additional-info-pic {
+    width: 120px;
+}
+
+.skill-image-container {
+    text-align: center;
+}
+
+#additional-info-row {
+    margin-top: 50px;
+}
+
+.blue-background {
+    background: -webkit-linear-gradient(167deg, #fff, rgb(104 104 104 / 98%), #0dcaf0, rgb(104 104 104 / 98%));
+    background-size: 400%;
+    opacity: 1;
+}
+
+#about-text {
+    color: #fff;
+    text-align-last: center;
+}
+
+#about-image {
+    box-shadow: 6px 6px 18px 0px rgb(0 0 0 / 30%);
+}
+
+#about-image-container {
+    text-align-last: center;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 100% 0%
+    }
+    25% {
+        background-position: 100% 25%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 100% 100%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 100% 0%
+    }
+    25% {
+        background-position: 100% 25%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 100% 100%
+    }
+}
+
+@-o-keyframes AnimationName {
+    0% {
+        background-position: 100% 0%
+    }
+    25% {
+        background-position: 100% 25%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 100% 100%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 0%
+    }
+    25% {
+        background-position: 0% 25%
+    }
+    50% {
+        background-position: 0% 50%
+    }
+    100% {
+        background-position: 0% 100%
+    }
+}
+
+.anchor {
+    display: block;
+    height: 70px;
+    /*same height as header*/
+    margin-top: -70px;
+    /*same height as header*/
+    visibility: hidden;
+}
+
+#work-text {
+    color: black;
+    text-align-last: center;
+    /* font-size: 48px !important; */
+    /* font-weight: bold; */
+}
+
+.work-icon {
+    font-size: 48px !important;
+    color: #0dcaf0;
+    position: relative;
+    top: 43%;
+}
+
+.work-dates {
+    font-weight: 400;
+    position: relative;
+    top: 48%;
+    text-align: center !important;
+}
+
+.work-info-block {
+    border-radius: 1px;
+    border-color: white;
+    box-shadow: 0px 0px 5px rgb(0 0 0 / 30%);
+    padding: 20px 20px !important;
+    margin-right: px;
+}
+
+.work-info-company {
+    margin-bottom: .1rem;
+}
+
+.work-info-title {
+    margin-bottom: 1rem;
+}
+
+.work-info-bio {
+    margin-bottom: 0rem;
+}
+
+@media (min-width: 560px) {
+    .work-dates {
+        text-align: right !important;
+    }
+}
+
+#awards-image-id {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 15px;
+}
+
+#awards-image-id:hover {
+    opacity: 0.7;
+}
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    /* height: 150px; */
+}
+
+.modal-content,
+#caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+.close {
+    position: absolute;
+    top: 110px;
+    right: 60px;
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+
+.awards-info-name {
+    color: white;
+    margin-bottom: 1px;
+}
+
+.awards-info-place {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0px;
+}
+
+.awards-info-bio {
+    margin-bottom: 5px;
+    color: white;
+    text-align: left !important;
+    text-indent: 20px;
+}
+
+.interest-icon {
+    font-size: 50px !important;
+}
+
+.reconigition-item {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.bio {}
+
+.tech-skills u1 {
+    display: block;
+}
+
+.tech-skills li {
+    display: inline-block;
+    margin: 7px;
+    padding: 5px 10px;
+    color: #374054;
+    background: #e4e4ea;
+    list-style: none;
+    cursor: default;
+    font-size: 1.2em;
+}
